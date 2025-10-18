@@ -52,6 +52,8 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Build with Next.js
+        env:
+          NEXT_PUBLIC_BASE_PATH: /AIPresence
         run: pnpm build
 
       - name: Upload artifact
