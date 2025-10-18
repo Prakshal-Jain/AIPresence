@@ -1,0 +1,23 @@
+<svg width="200" height="256" viewBox="0 0 200 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shopping bag body -->
+  <path d="M180 64L190 240C190 248.837 182.837 256 174 256H26C17.1634 256 10 248.837 10 240L20 64H180Z" fill="currentColor"/>
+  
+  <!-- Shopping bag handle left -->
+  <path d="M62 64V48C62 21.4903 83.4903 0 110 0H90C116.51 0 138 21.4903 138 48V64" stroke="currentColor" stroke-width="16" fill="none"/>
+  
+  <!-- Shopping bag handle right -->
+  <path d="M52 48C52 21.4903 73.4903 0 100 0C126.51 0 148 21.4903 148 48V64H52V48Z" fill="currentColor"/>
+  
+  <!-- Star/sparkle in center -->
+  <g transform="translate(100, 150)">
+    <!-- Vertical line -->
+    <rect x="-6" y="-48" width="12" height="96" rx="6" fill="white"/>
+    <!-- Horizontal line -->
+    <rect x="-48" y="-6" width="96" height="12" rx="6" fill="white"/>
+    <!-- Diagonal line 1 -->
+    <rect x="-6" y="-48" width="12" height="96" rx="6" fill="white" transform="rotate(45)"/>
+    <!-- Diagonal line 2 -->
+    <rect x="-6" y="-48" width="12" height="96" rx="6" fill="white" transform="rotate(-45)"/>
+  </g>
+</svg>
+
