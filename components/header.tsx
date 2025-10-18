@@ -9,11 +9,11 @@ export function Header() {
         <div className="flex items-center gap-2">
           <div className="flex h-8 w-8 items-center justify-center">
             <Image 
-              src={getAssetPath("/logo.svg")}
+              src={getAssetPath("/logo.png")}
               alt="AIPresence Logo"
               width={32}
               height={32}
-              className="h-8 w-8"
+              className="h-8 w-auto"
             />
           </div>
           <span className="text-lg font-semibold">AIPresence</span>
