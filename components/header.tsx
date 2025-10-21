@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
-import { getAssetPath } from "@/lib/assets"
 
 export function Header() {
   return (
@@ -9,7 +8,7 @@ export function Header() {
         <div className="flex items-center gap-2">
           <div className="flex h-8 w-8 items-center justify-center">
             <Image 
-              src={getAssetPath("/logo.png")}
+              src="/logo.png"
               alt="AIPresence Logo"
               width={32}
               height={32}

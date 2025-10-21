@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Clock } from "lucide-react"
 import Image from "next/image"
-import { getAssetPath } from "@/lib/assets"
 
 export function Hero() {
   return (
@@ -60,7 +59,7 @@ export function Hero() {
             <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent" />
             <div className="relative overflow-hidden rounded-xl">
               <Image
-                src={getAssetPath("/images/design-mode/image.png")}
+                src="/images/design-mode/image.png"
                 alt="ChatGPT showing car dealership inventory directly in conversation"
                 width={1200}
                 height={800}
