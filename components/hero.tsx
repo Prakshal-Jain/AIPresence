@@ -33,8 +33,11 @@ export function Hero() {
               size="lg"
               variant="outline"
               className="cursor-pointer transition-all hover:scale-105 bg-transparent"
+              asChild
             >
-              Watch Demo
+              <a href="https://youtu.be/ZRHyxJGyz64" target="_blank" rel="noopener noreferrer">
+                Watch Demo
+              </a>
             </Button>
           </div>
 

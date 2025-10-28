@@ -5,7 +5,7 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-border/40 bg-background/80 backdrop-blur-lg">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
-        <div className="flex items-center gap-2">
+        <a href="/" className="flex items-center gap-2 transition-opacity hover:opacity-80">
           <div className="flex h-8 w-8 items-center justify-center">
             <Image 
               src="/logo.png"
@@ -16,7 +16,7 @@ export function Header() {
             />
           </div>
           <span className="text-lg font-semibold">AIPresence</span>
-        </div>
+        </a>
         <nav className="hidden items-center gap-6 md:flex">
           <a href="#how-it-works" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
             How It Works
